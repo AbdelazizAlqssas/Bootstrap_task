@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>bootstrap website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center bg-light ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-11 d-flex  align-items-baseline">
+          <a href="index.html" class="logo "><img src="assets/img/logo.jpg" alt="" class="img-fluid rounded-circle"></a>
+          <h1 class="logo m-0 p-0 g "><a href="index.html " class="text-info">Egypt</a></h1>
+
+          <nav id="navbar" class="navbar pe-lg-5">
+            <ul>
+              <li><a class="nav-link scrollto active text-info" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto text-info" href="#about">Link</a></li>
+              
+              <div class="dropdown">
+                <button type="button" class="btn btn-outline-info dropdown-toggle " style="margin-left: 10px;" data-bs-toggle="dropdown">
+                  Trips
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item text-info">CAIRO</a></li>
+                                <li><a href="#" class="dropdown-item text-info">ALEX</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="#" class="dropdown-item text-info">LUXOR</a></li>
+                                <li><a href="#" class="dropdown-item text-info">ASWAN</a></li>
+                                <li><a href="#" class="dropdown-item text-info">SHARM EL SHIKH</a></li>
+                                <li><a href="#" class="dropdown-item text-info">EL GLALA</a></li>
+                                <li><a href="#" class="dropdown-item text-info">MORE...</a></li>
+                </ul>
+              </div>
+              
+              
+              <li><a class="nav-link scrollto text-info" href="#contact">About</a></li>
+            </ul>
+            
+            <i class="bi bi-list mobile-nav-toggle"></i>
+            
+          </nav><!-- .navbar -->
+          <div class="container-fluid col-8 " style="padding-left: 500px;">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-info text-light me-3" type="submit">Search</button>
+              <button type="button" class="btn btn-info text-light"  data-bs-toggle="modal" data-bs-target="#ModalForm">Login</button>
+            
+            </form>
+          </div>
+          
+        
+      </div> <!-- col -->
+      
+     
+    </div> <!-- row -->
+    
+    
+    </div> <!-- container -->
+   
+  </header> <!-- End Header -->
+
+  <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="btn-close btn-close-dark bg-info" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="myform bg-light">
+                <h1 class="text-center">Login Form</h1>
+                <form>
+                    <div class="mb-3 mt-4">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-light text-light mt-3">LOGIN</button>
+                    <p>Not a member? <a href="#">Signup now</a></p>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+</div> <!-- modal -->
+  
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    
+    <div class="hero-container">
+      
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/cairo.jpg)">
+            
+            <div class="carousel-container">
+              
+              <div class="container">
+                <div class="icons d-grid">
+                  <a href="#" class="facebook mb-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="facebook mb-3"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" class="twitter mb-3"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="linkedin mb-3"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+                
+                <h2 class="animate__animated animate__fadeInDown">CAIRO</h2>
+                <p class="animate__animated animate__fadeInUp">We Had Such A Great Time In Egypt.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Visit Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/Aswan.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <div class="icons d-grid">
+                  <a href="#" class="facebook mb-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="facebook mb-3"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" class="twitter mb-3"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="linkedin mb-3"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h2 class="animate__animated animate__fadeInDown">ASWAN</h2>
+                <p class="animate__animated animate__fadeInUp">Thank you, Aswan!</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Visit Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/Sharm-El-Sheikh.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <div class="icons d-grid">
+                  <a href="#" class="facebook mb-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="facebook mb-3"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" class="twitter mb-3"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="linkedin mb-3"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h2 class="animate__animated animate__fadeInDown">SHARM EL SHIKH</h2>
+                <p class="animate__animated animate__fadeInUp">We Love This City!</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Visit Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/elgalala.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <div class="icons d-grid">
+                  <a href="#" class="facebook mb-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="facebook mb-3"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" class="twitter mb-3"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="linkedin mb-3"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h2 class="animate__animated animate__fadeInDown">EL GLALALA</h2>
+                <p class="animate__animated animate__fadeInUp">We love this city</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Visit Us</a>
+              </div>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+  
+  <main id="main">
+
+    
+    <!-- ======= Featured Services Section Section ======= -->
+    <section class="aqua">
+      <div class="container">
+        <div>
+          <H2 class="text-success mt-4 g">WLECOME</H2>
+        <P class="text-white">Are you planing to visit Egypt? we offer ultimate tour in Egypt, covering Cairo, Alex. From a one day trip to a 10 day dream vacation, we will take care of all your needs. book hotels 24/7 Customer Service.. </P>
+      </div>
+      <div class="btn btn-info m-2">
+        Learn More
+      </div>
+      </div> <!-- container -->
+    </section><!-- End Featured Services Section -->
+    <li><hr class="dropdown-divider"></li>
+ 
+<section class="bg-info p-5 rounded m-1 border-dark">
+  <div class="container text-center">
+    <h1 class="text-light">Popular destinations in Egypt</h1>
+  </div>
+</section>
+
+
+ 
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          GIZA CITY
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Major touris destinations include the millennia-old monuments in the Nile valley. Principal among them are the Pyramids and Great Sphinx at Giza
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        LUXOR CITY
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Luxor, about 500km south of Cairo, is the site of the ancient city of Thebes. it includes the runins of the temple complexes at Karnak and Luxor, which Stand within the moderncity. in the opposite side of the Nile River lie the monuments, tempels and tombs on the west bank Necrobolis, which include the vally of the kings and vally of the Queens.        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          SINAI PENINSULA
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+  <div class="text-center bg-info text-light p-3 rounded m-1 border-dark">
+    <h1 >
+      Translate From Arabic To English
+    </h1>
+  </div>
+</section>
+<!-- ///////////////// -->
+<section>
+  <div class="translate rounded">
+    <div class="ma">
+      <h4 class="text-light">Write and translate <a href="#">press here</a></h4>
+    <button onclick="myFunction()" class="btn btn-light p-3"  id="mybtn">copy</button>
+    </div>
+    <textarea name="" id="myInput" cols="155" rows="5" placeholder="translate:"></textarea>
+  </div>
+</section>
+<hr class="mx-5">
+<section>
+  <div class="text-center bg-info text-light p-3 rounded m-1 border-dark">
+    <h1 >
+      Translate From Arabic To Frensh
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="translate rounded">
+    <div class="ma">
+      <h4 class="text-light">Write and translate <a href="#">press here</a></h4>
+    <button onclick="myFunction()" class="btn btn-light p-3"  id="mybtn">copy</button>
+    </div>
+    <textarea name="" id="myInput" cols="155" rows="5" placeholder="translate:"></textarea>
+  </div>
+</section>
+<hr class="my-4">
+<section>
+  <div class="text-center bg-info text-light p-3 rounded m-1 border-dark">
+    <h1 >
+      Translate From Arabic To German
+    </h1>
+  </div>
+</section>
+<section>
+  <div class="translate rounded">
+    <div class="ma">
+      <h4 class="text-light">Write and translate <a href="#">press here</a></h4>
+    <button onclick="myFunction()" class="btn btn-light p-3"  id="mybtn">copy</button>
+    </div>
+    <textarea name="" id="myInput" cols="155" rows="5" placeholder="translate:"></textarea>
+  </div>
+</section>
+
+    <!-- ///////////////////////////////////////////////////// -->
+    <section id="call-to-action">
+      <div class="container text-center" data-aos="zoom-in">
+      </div>
+    </section>
+    <!-- End Call To Action Section -->
+
+    <section class="bg-info p-5 rounded m-1 border-dark ">
+      <div class="container text-center">
+        <h1 class="g" >Popular destinations in Egypt</h1>
+      </div>
+    </section>
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row about-cols">
+
+          <div class="card team-item_5 " style="width:370px; height: 600px;">
+            <img class="card-img-top " src="assets/img/camel-cairo.jpg" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline; margin-right:119px;">CAIRO</h4>
+              <a href="#" class="btn btn-info text-light">know More</a>
+              <p class="card-text text-info" >Capital of Egypt</p>
+            </div>
+          </div>
+
+          <div class="card team-item_5 " style="width:370px; height: 600px; margin: 0 70px;">
+            <img class="card-img-top " src="assets/img/Alex.webp" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline; margin-right:70px;">Alexandria</h4>
+              <a href="#" class="btn btn-info text-light">know More</a>
+              <p class="card-text text-info">The bride of Mediterranean</p>
+
+            </div>
+          </div>
+
+
+          <div class="card team-item_5 " style="width:370px; height: 600px;">
+            <img class="card-img-top " src="assets/img/Luxor_temple.jpg" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline; margin-right:121px;">Luxor</h4>
+              <a href="#" class="btn btn-info text-light">know More</a>
+              <p class="card-text text-info">The Capital of the Ancient kingdom</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row about-cols">
+          
+            
+          <div class="card  team-item_5" style="width:370px; height: 600px;">
+            <img class="card-img-top " src="assets/img/Aswan_river.jpg" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline; margin-right:119px">Aswan</h4>
+              <a href="#" class="btn btn-info text-light">know More</a>
+              <p class="card-text text-info" >Nubian City in the South of Egypt</p>
+            </div>
+          </div>
+
+        
+          <div class="card team-item_5" style="width:370px; height: 600px; margin: 0 70px;">
+            <img class="card-img-top " src="assets/img/new capital.jpeg" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline; margin-right:25px;">NEW CAPITAL</h4>
+              <a href="#" class="btn btn-info text-light">know More</a>
+              <p class="card-text text-info">The Administrative Capital</p>
+
+            </div>
+          </div>
+
+
+          <div class="card team-item_5 " style="width:380px; height: 600px;">
+            <img class="card-img-top " src="assets/img/sharm.jpg" style="height: 500px;" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title text-info" style="display: inline;" >Sharm-El-Sheikh</h4>
+              <a href="#" class="btn btn-info text-light" >know More</a>
+              <p class="card-text text-info">Beautiful City in Egypt </p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+  </section><!-- End About Us Section -->
+
+  <section id="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row about-cols">
+
+        <div class="card team-item_5 " style="width:370px; height: 600px; margin-left: 120px;">
+          <img class="card-img-top " src="assets/img/siwa.jpg" style="height: 500px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-info" style="display: inline; margin-right:141px">Siwa</h4>
+            <a href="#" class="btn btn-info text-light">know More</a>
+            <p class="card-text text-info" >Sunsit oasis</p>
+          </div>
+        </div>
+
+        <div class="card team-item_5" style="width:370px; height: 600px; margin-left: 300px;">
+          <img class="card-img-top " src="assets/img/Hurghada-Egypt.jpg" style="height: 500px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-info" style="display: inline; margin-right:50px;">HURGHADA</h4>
+            <a href="#" class="btn btn-info text-light">know More</a>
+            <p class="card-text text-info">CITY IN THE RED SEA</p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section><!-- End About Us Section -->
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+   <section id="call" class="m-1">
+    <div class="container text-center" data-aos="zoom-in">
+    </div>
+  </section>
+  <hr class="style=margin:200px 0;">
+  <!-- //////////////////////////////////////////////////////////////// -->
+  <section class="bg-info p-5 rounded m-1 border-dark">
+    <div class="container text-center">
+      <h1 class="text-light g">THANKS FOR</h1>
+    </div>
+  </section>
+
+  <section id="about">
+    
+    <div class="container" data-aos="fade-up">
+
+      <div class="div1 rounded-5 me-5"  style="background-image: url(assets/img/bill-gates.jpeg); float: left; background-size: cover;background-position: 50%;">
+                        <div class="img_1">
+                          <h3 class=" text-light h_1">All thanks and appreciation</h3>
+                          <p class="text-light p_1">October 15, 2023</p>
+                          <img class="lol" src="assets/img/bill-gates.jpeg" width="120px"  height="170px" alt="this is pic" draggable="false"/>
+                            <h5>Eng. Bill-Gates</h5>
+                            <span>Microsoft Owner</span>
+                        </div> <!-- /img_1-->      </div>
+      <div class="div1 rounded-5 me-5"  style="background-image: url(assets/img/Elon_Musk.jpg); float: left;">
+      
+        <div class="img_1">
+          <h3 class="text-light h_1">All thanks and appreciation</h3>
+          <p class="text-light p_1">October 15, 2023</p>
+          <img class="lol" src="assets/img/Elon_Musk.jpg" width="120px"  height="170px" alt="this is pic" draggable="false"/>
+            <h5>Elon_Musk</h5>
+            <span>twitter_Owner</span>
+        </div> <!-- /img_1-->      </div>
+      
+
+      <div class="div1 rounded-5"  style="background-image: url(assets/img/mark-zuckerberg.jpg); float: left; background-size: cover;background-position: 50%;">
+        <div class="img_1">
+          <h3 class="text-light h_1">All thanks and appreciation</h3>
+          <p class="text-light p_1">October 15, 2023</p>
+          <img class="lol" src="assets/img/mark-zuckerberg.jpg" width="120px"  height="170px" alt="this is pic" draggable="false"/>
+            <h5>Mark-zuckerberg</h5>
+            <span>facebook_Owner</span>
+        </div> <!-- /img_1-->      </div>
+        
+      </div>
+
+    </div>
+
+  </section>
+
+  <hr>
+
+  <div class="egy">
+    <h2 class="g text-center">EGYPT NEWS</h2>
+  </div>
+  <div class="prodcast">
+    <div class="container_2">
+      <div class="container_1">
+        <h2 class="prod text-dark ">Prodcast Title</h2>
+        <p class="text-dark text-start">mon, oct 25th 2023</p>
+        <div class="line p-1 bg-info" style="width: 100px;"></div>
+        <p class="text-dark mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi saepe repellendus laudantium eveniet quaerat quibusdam accusamus, corrupti assumenda itaque omnis recusandae perspiciatis aliquam sint provident placeat iure commodi! Ratione.
+        Architecto laboriosam suscipit, id dicta consequuntur voluptas. Vero pariatur qui necessitatibus molestiae ea veniam sunt, ducimus repellat neque deleniti magnam rerum beatae placeat aperiam itaque porro accusamus voluptates ut repudiandae.</p>
+      <input type="button" value="Prodcast" class="hov btn btn-secondary">
+      <input type="button" value="55 mins" class="hov btn btn-secondary">
+      <input type="button" value="Play Episod" class="hov btn btn-secondary">
+      
+      </div>
+      <div class="img_2">
+        <img src="assets/img/asar.jpeg" alt="" width="340px" height="515px" >
+      </div>
+      
+    </div>
+<br>
+  </div>
+
+  <br>
+  <br>
+  <div class="mt-5">
+
+  </div>
+  <div class="prodcast">
+    <div class="container_3">
+      <div class="img_4">
+        <img src="assets/img/morgan.jpg" alt="" width="250px" height="490px" >
+      </div>
+      <div class="container2 mt-2">
+        <h2 class="prod text-dark ">Prodcast Title</h2>
+        <p class="text-dark text-start">mon, oct 25th 2023</p>
+        <div class="line p-1 bg-success" style="width: 100px;"></div>
+        <p class="text-dark mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi saepe repellendus laudantium eveniet quaerat quibusdam accusamus, corrupti assumenda itaque omnis recusandae perspiciatis aliquam sint provident placeat iure commodi! Ratione.
+        Architecto laboriosam suscipit, id dicta consequuntur voluptas. Vero pariatur qui necessitatibus molestiae ea veniam sunt, ducimus repellat neque deleniti magnam rerum beatae placeat aperiam itaque porro accusamus voluptates ut repudiandae.</p>
+      <input type="button" value="Prodcast" class="hov btn btn-secondary">
+      <input type="button" value="55 mins" class="hov btn btn-secondary">
+      <input type="button" value="Play Episod" class="hov btn btn-secondary">
+      
+      </div>
+      
+      
+    </div>
+<br>
+  </div>
+
+  <br>
+  <br>
+  <div class="mt-5">
+  </div>
+  <div class="prodcast">
+    <div class="container_2">
+      <div class="container_1">
+        <h2 class="prod text-dark ">Prodcast Title</h2>
+        <p class="text-dark text-start">mon, oct 25th 2023</p>
+        <div class="line p-1 bg-danger" style="width: 100px;"></div>
+        <p class="text-dark mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi saepe repellendus laudantium eveniet quaerat quibusdam accusamus, corrupti assumenda itaque omnis recusandae perspiciatis aliquam sint provident placeat iure commodi! Ratione.
+        Architecto laboriosam suscipit, id dicta consequuntur voluptas. Vero pariatur qui necessitatibus molestiae ea veniam sunt, ducimus repellat neque deleniti magnam rerum beatae placeat aperiam itaque porro accusamus voluptates ut repudiandae.</p>
+      <input type="button" value="Prodcast" class="hov btn btn-secondary">
+      <input type="button" value="55 mins" class="hov btn btn-secondary">
+      <input type="button" value="Play Episod" class="hov btn btn-secondary">
+      
+      </div>
+      <div class="img_2">
+        <img src="assets/img/old-h.jpg" alt="" width="340px" height="515px" >
+      </div>
+      
+    </div>
+<br>
+  </div>
+
+
+  <br>
+  <br>
+  <div class="mt-5">
+
+  </div>
+  <div class="prodcast">
+    <div class="container_3">
+      <div class="img_4">
+        <img src="assets/img/ahram.jpg" alt="" width="250px" height="490px" >
+      </div>
+      <div class="container2 mt-2">
+        <h2 class="prod text-dark ">Prodcast Title</h2>
+        <p class="text-dark text-start">mon, oct 25th 2023</p>
+        <div class="line p-1 bg-secondary" style="width: 100px;"></div>
+        <p class="text-dark mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi saepe repellendus laudantium eveniet quaerat quibusdam accusamus, corrupti assumenda itaque omnis recusandae perspiciatis aliquam sint provident placeat iure commodi! Ratione.
+        Architecto laboriosam suscipit, id dicta consequuntur voluptas. Vero pariatur qui necessitatibus molestiae ea veniam sunt, ducimus repellat neque deleniti magnam rerum beatae placeat aperiam itaque porro accusamus voluptates ut repudiandae.</p>
+      <input type="button" value="Prodcast" class="hov btn btn-secondary">
+      <input type="button" value="55 mins" class="hov btn btn-secondary">
+      <input type="button" value="Play Episod" class="hov btn btn-secondary">
+      
+      </div>
+      
+      
+    </div>
+<br>
+  </div>
+
+  <br><br>
+
+  <div class="egy">
+    <h2 class="g text-center">JOIN US</h2>
+  </div>
+  <div class="last_icon">
+    <div class="icon_1 bg-light rounded-5">
+      <h3 class="text-info mt-5">Subscribe Now</h3>
+      <i class="bi bi-twitter bg-black text-info text-center h1 rounded font "></i>
+      <h4 class="text-info mt-5">Go to link</h4>
+    </div>
+    <div class="icon_1 bg-light rounded-5">
+      <h3 class="text-info mt-5">Subscribe Now</h3>
+      <i class="bi bi-whatsapp bg-black text-success text-center h1 rounded font"></i>   
+      <h4 class="text-info  mt-5">Go to link</h4>
+    </div>
+    <div class="icon_1 bg-light rounded-5">
+      <h3 class="text-info mt-5">Subscribe Now</h3>
+      <i class="bi bi-linkedin bg-black text-info text-center h1 rounded font"></i> 
+      <h4 class="text-info  mt-5">Go to link</h4>
+    </div>
+    <div class="icon_1 bg-light rounded-5">
+      <h3 class="text-info mt-5">Subscribe Now</h3>
+      <i class="bi bi-instagram bg-black text-danger text-center h1 rounded font"></i>
+      <h4 class="text-info  mt-5">Go to link</h4>
+    </div>
+  </div>
+
+  <!-- /////////////////////////////////////////////////////////////// -->
+  <div class="end">
+
+    <div class="end_1">    <div class="line_1"></div>     <div class="line_1"></div>     <div class="line_1"></div></div>
+   <div class="end_2">
+    <div class="lo_1"><a href="index.html" ><img src="assets/img/logo.jpg" width="150px" height="200px" alt="" class="img-fluid rounded-circle"><span class="h4 m-5 text-light">Good Company</span></a></div> 
+    <div class="lo_1"><a href="index.html" ><img src="assets/img/logo.jpg" width="150px" height="200px" alt="" class="img-fluid rounded-circle"><span class="h4 m-5 text-light">Good Company</span></a></div> 
+    <div class="lo_1"><a href="index.html" ><img src="assets/img/logo.jpg" width="150px" height="200px" alt="" class="img-fluid rounded-circle"><span class="h4 m-5 text-light">Good Company</span></a></div> 
+   </div>
+   <div class="end_1">    <div class="line_1"></div>     <div class="line_1"></div>     <div class="line_1"></div></div>
+   <div class="end_3"><a href="#"><p class="p_3 text-light">Tel: 000-000-000</p></a> <a href="#"><p>Visit us</p></a> <a href="#"><p  class="text-light">Services for all</p></a></div>
+   <div class="end_3"><a href="#"><p class="p_3 text-light">Address: Egypt</p></a> <a href="#"><p>take alook</p></a> <a href="#"><p  class="text-light">provide best Services</p></a></div>
+   <div class="end_3"><a href="#"><p class="p_3 text-light">Fax: 000-000-000</p></a> <a href="#"><p>your health is more important</p></a> <a href="#"><p  class="text-light">you will be better than before </p></a></div>
+   <div class="line_2"></div>
+   <div><h3 class="text-center text-primary">COPY RIGHT &COPY 2023 ABDELAZIZ ALQSSAS, GOOD COMPANY. ALL RIGHT</h3></div>
+   <div class="line_2"></div>
+  <div class="mt-5">>thanks</div>
+ 
+  </div>
+
+    
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
